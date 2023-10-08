@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+#body_inline_block{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    background-color: #14213d;
+}
+
+header{
+    width: 30%;
+    height: 100vh;
+    background-color: #e5e5e5;
+}
+
+nav{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    
+}
+
+h2 {
+    font-size: 35px;
+    color: #fca311;
+}
+
+#img_aws, 
+#img_nuvem{
+    margin-top: 5vh;
+    width: 20vw; 
+}
+
+section{
+    width: 70vw;
+    height: 100%;
+    text-align: center;
+    background-color: #14213d;
+}
+
+section, h2{
+    padding-top: 20px;
+}
+
+#usuario_curriculo{
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#img_usuario{
+    width: 35%;
+    height: 35%;
+    background-color: #e5e5e5;
+}
+
+footer p{
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
